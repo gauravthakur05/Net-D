@@ -1,0 +1,42 @@
+[
+  {
+    "id": "mslquyzntvb7",
+    "timestamp": "2026-08-09T11:53:40.259Z",
+    "healthScore": 80,
+    "diagnosisCode": "HIGH_LATENCY",
+    "diagnosisTitle": "🟡 High Latency Detected",
+    "avgLatencyMs": 596
+  },
+  {
+    "id": "mslqu0gyld3d",
+    "timestamp": "2026-08-09T11:52:55.522Z",
+    "healthScore": 80,
+    "diagnosisCode": "HIGH_LATENCY",
+    "diagnosisTitle": "🟡 High Latency Detected",
+    "avgLatencyMs": 562
+  },
+  {
+    "id": "mslqt1kp1s9m",
+    "timestamp": "2026-08-09T11:52:10.297Z",
+    "healthScore": 80,
+    "diagnosisCode": "HIGH_LATENCY",
+    "diagnosisTitle": "🟡 High Latency Detected",
+    "avgLatencyMs": 532
+  },
+  {
+    "id": "mslqs28s4oah",
+    "timestamp": "2026-08-09T11:51:24.508Z",
+    "healthScore": 86,
+    "diagnosisCode": "HIGH_LATENCY",
+    "diagnosisTitle": "🟡 High Latency Detected",
+    "avgLatencyMs": 393
+  },
+  {
+    "id": "mslqs0zrj274",
+    "timestamp": "2026-08-09T11:51:22.887Z",
+    "healthScore": 80,
+    "diagnosisCode": "HIGH_LATENCY",
+    "diagnosisTitle": "🟡 High Latency Detected",
+    "avgLatencyMs": 493
+  }
+]

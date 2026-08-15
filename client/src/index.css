@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-base text-ink font-body antialiased;
+}
+
+body.light-mode {
+  @apply bg-base-light text-ink-light;
+}
+
+::selection {
+  background: rgba(45, 217, 196, 0.3);
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Visible keyboard focus ring everywhere */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #2dd9c4;
+  outline-offset: 2px;
+}
+
+.card {
+  @apply bg-surface border border-border rounded-2xl;
+}
+.light-mode .card {
+  @apply bg-surface-light border-border-light;
+}
