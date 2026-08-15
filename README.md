@@ -1,4 +1,4 @@
-# 🩺 NetDoctor — Internet Blackout & Network Health Detector
+# NetDoctor - Internet Blackout & Network Health Detector
 
 NetDoctor is an "internet doctor" that tells you **why** your connection
 isn't working — not just that it isn't. It distinguishes between a local
